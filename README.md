@@ -375,3 +375,7 @@ ffmpeg -f lavfi -i anullsrc=r=24000:cl=mono -t 0.1 -f wav test.wav
 ## License
 
 MIT
+
+---
+
+Built with love in Paris by [Majdi Toumi](https://majdi.im)
