@@ -1,0 +1,22 @@
+# https://lefthook.dev/
+
+pre-commit:
+  parallel: true
+  jobs:
+    - name: lint
+      glob: "*.{ts,tsx,js,jsx}"
+      run: bunx biome check --write {staged_files} && git add {staged_files}
+
+    - name: format
+      glob: "*.{json,md,yml,yaml}"
+      run: bunx biome format --write {staged_files} && git add {staged_files}
+
+    - name: typecheck
+      run: bun run typecheck
+
+pre-push:
+  parallel: true
+  jobs:
+    - name: test
+      run: bun test
+
