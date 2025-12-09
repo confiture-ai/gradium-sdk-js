@@ -14,11 +14,11 @@ Unofficial TypeScript SDK for the [Gradium API](https://gradium.ai) — low-late
 ## Installation
 
 ```bash
-bun add gradium-ai
+bun add @confiture-ai/gradium-ai
 # or
-npm install gradium-ai
+npm install @confiture-ai/gradium-ai
 # or
-pnpm add gradium-ai
+pnpm add @confiture-ai/gradium-ai
 ```
 
 ## Quick Start
