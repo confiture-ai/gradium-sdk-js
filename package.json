@@ -1,15 +1,14 @@
 {
   "name": "@confiture-ai/gradium-sdk-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Unofficial TypeScript SDK for the Gradium API",
   "author": "Majdi Toumi <majdi@confiture.ai>",
   "license": "MIT",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
+      "import": "./dist/index.js",
       "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }
