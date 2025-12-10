@@ -14,17 +14,17 @@ Unofficial TypeScript SDK for the [Gradium API](https://gradium.ai) — low-late
 ## Installation
 
 ```bash
-bun add @confiture-ai/gradium-ai
+bun add @confiture-ai/gradium-sdk-js
 # or
-npm install @confiture-ai/gradium-ai
+npm install @confiture-ai/gradium-sdk-js
 # or
-pnpm add @confiture-ai/gradium-ai
+pnpm add @confiture-ai/gradium-sdk-js
 ```
 
 ## Quick Start
 
 ```typescript
-import Gradium from '@confiture-ai/gradium-ai';
+import Gradium from '@confiture-ai/gradium-sdk-js';
 
 const client = new Gradium({
   apiKey: process.env['GRADIUM_API_KEY'], // This is the default and can be omitted
